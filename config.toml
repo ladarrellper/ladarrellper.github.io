@@ -1,48 +1,48 @@
-baseurl: "https://ladarrellper.github.io/"
-languageCode: en-us
-title: "Paritosh Baghel"
-googleAnalytics: ""
-disqusShortname: ""
-preserveTaxonomyNames: true
-footnotereturnlinkcontents: ↩
-disableHugoGeneratorInject: true
-pluralizeListTitles: false
-pygmentsCodeFences: false
-pygmentsUseClasses: false
-minify: false
-paginate: 9999
-disableKinds:
-  - section
-  - categories
-  - tags
+baseURL = "https://ladarrellper.github.io/"
+languageCode = "en-us"
+title = "Paritosh Baghel"
+theme = "nama-tema-anda"  # Gantilah dengan nama folder tema Anda
+googleAnalytics = ""
+disqusShortname = ""
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+disableHugoGeneratorInject = true
+pluralizeListTitles = false
+pygmentsCodeFences = false
+pygmentsUseClasses = false
+minify = false
+paginate = 9999
 
-permalinks:
-  writing: /:year/:month/:day/:slug/
+disableKinds = ["section", "categories", "tags"]
 
-params:
-  description: "Paritosh Blog"
+[permalinks]
+  [[permalinks.writing]]
+  path = "/:year/:month/:day/:slug/"
 
-frontmatter:
-  author: "Paritosh Baghel"
-  github: 'https://github.com/paritoshmmmec'
-  og_image: 
-  sitename: "Paritosh Blog"
-  twitter: '@paritosh_pi'
+[params]
+  description = "Paritosh Blog"
 
-sitemap:
-  changefreq: daily
-  filename: sitemap.xml
-  priority: 0.5
+[frontmatter]
+  author = "Paritosh Baghel"
+  github = "https://github.com/paritoshmmmec"
+  og_image = ""
+  sitename = "Paritosh Blog"
+  twitter = "@paritosh_pi"
 
-outputFormats:
-  RSS:
-    mediatype: application/rss
-    baseName: atom
-  JSON:
-    mediatype: application/json
-    baseName: feed
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
 
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "atom"
+  [outputFormats.JSON]
+    mediatype = "application/json"
+    baseName = "feed"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
