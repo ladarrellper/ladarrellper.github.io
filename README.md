@@ -1,26 +1,23 @@
-# Listed
+# Minimalist - Hugo theme
 
-Listed is a minimalistic Hugo blogging theme.
+Minimalist is content focused, minimal theme for Hugo. The theme is perfectly suitable for writers. No JS! CSS only 692B! AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest!
 
-### Demo: [https://listed-hugo.netlify.app/](https://listed-hugo.netlify.app/)
+Demo: [https://minimalist-hugo.netlify.app/](https://minimalist-hugo.netlify.app/)
+
+![Theme screenshot](screenshot.png)
 
 ### Features
 
 - Minimalistic, clean and simple design
+- Perfect for writers
+- Content focused
+- System fonts
+- NO JS!
+- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
 - Responsive design
 - Inline CSS
-- Anchor headings
-- Tags
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
+- Atom feed
 - Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
+- SEO optimized (Twitter cards, Facebook Open Graph, Schema.org)
 - Ultra fast
-
-### Screenshot
-
-![Screenshot](screenshot.png)
+- CSS is only 692B!
